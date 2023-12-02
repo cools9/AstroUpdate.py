@@ -1,8 +1,3 @@
-
-# Project Title
-
-A brief description of what this project does and who it's for
-
 # AstroUpdate Application
 
 AstroUpdate is a Python application designed to provide various astronomical features and utilities in a user-friendly interface. It's developed using Python and the `customtkinter` library to create a versatile GUI.
