@@ -37,7 +37,7 @@ To run the application:
 
 ### Installation
 - You can install this by using the command `git clone https://github.com/cools9/AstroUpdate.py`
-- Then type cd AstroUpdate
+- Then type `cd AstroUpdate`
 - Then type `pip install -r requirements.txt` 
 - THen run it by typing `python3 AstroUpdate.py`
 
