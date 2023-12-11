@@ -59,7 +59,7 @@ def main():
                 return result
             except Exception as e:
                 return str(e)
-
+        """
         def ask_ai_a_question(self, prompt1):
             from transformers import GPT2LMHeadModel, GPT2Tokenizer
 
@@ -78,7 +78,7 @@ def main():
                 return generated_text
 
             print(generate_text(prompt1))
-
+        """
         def fits_file_reader(self, fits_file_path):
             from astropy.io import fits
 
@@ -269,8 +269,8 @@ def main():
     astrochat_tab.add("Friends")
     astrochat_tab.add("Group Chat")
 
-    add_image=customtkinter.CTkImage(light_image=Image.open('C:\\Users\\rishabh\\Desktop\\Desktop\\AstroUpdate\\plus.png'),
-                                      dark_image=Image.open('C:\\Users\\rishabh\\Desktop\\Desktop\\AstroUpdate\\plus.png'),
+    add_image=customtkinter.CTkImage(light_image=Image.open('plus.png'),
+                                      dark_image=Image.open('plus.png'),
                                       size=(30,30))
 
     add_friend=customtkinter.CTkButton(astrochat_tab.tab("Friends"),width=250,height=50,corner_radius=30,image=add_image,text="ADD FRIEND")
@@ -289,8 +289,8 @@ def main():
         label1.pack(side=BOTTOM)
     message_text=customtkinter.CTkTextbox(mesage,width=200,height=100,corner_radius=20)
     message_text.pack(side=LEFT)
-    send_image=customtkinter.CTkImage(light_image=Image.open('C:\\Users\\rishabh\\Desktop\\Desktop\\AstroUpdate\\send.png'),
-                                      dark_image=Image.open('C:\\Users\\rishabh\\Desktop\\Desktop\\AstroUpdate\\send.png'),
+    send_image=customtkinter.CTkImage(light_image=Image.open('send.png'),
+                                      dark_image=Image.open('send.png'),
                                       size=(30,30))
     message_button=customtkinter.CTkButton(mesage,image=send_image,width=100,height=100,corner_radius=30,text="send")
     message_button.pack(side=RIGHT)
