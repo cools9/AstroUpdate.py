@@ -16,5 +16,4 @@ pywinstyles==1.4
 Requests==2.31.0
 sympy==1.12
 transformers==4.3.2
-~ustomtkinter==4.4.1
-~ustomtkinter==5.1.2
+
